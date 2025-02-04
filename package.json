@@ -1,0 +1,33 @@
+{
+  "name": "practica04-230592a-sesioneshttp-mx.utxj.practica4_awi4",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelJesus13/Practica04-230592A-SesionesHTTP.git"
+  },
+  "keywords": [],
+  "author": "T.E.C Programación Angel de Jesus Baños Tellez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelJesus13/Practica04-230592A-SesionesHTTP/issues"
+  },
+  "homepage": "https://github.com/angelJesus13/Practica04-230592A-SesionesHTTP#readme",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "moment-timezone": "^0.5.47",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
