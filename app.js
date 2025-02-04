@@ -194,7 +194,7 @@ app.post('/logout', (req, res) => {
     }
 
     const sessionData = activeSessions.get(sessionId);
-    sessionData.status = 'cerrada por logout';
+    sessionData.status = 'cerrada por el usuario';
     res.status(200).json({ message: 'Sesión cerrada exitosamente.', session: sessionData });
 });
 
