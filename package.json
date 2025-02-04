@@ -25,6 +25,7 @@
     "express": "^4.21.2",
     "express-session": "^1.18.1",
     "moment-timezone": "^0.5.47",
+    "os": "^0.1.2",
     "uuid": "^11.0.5"
   },
   "devDependencies": {
